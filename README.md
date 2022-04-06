@@ -16,13 +16,14 @@ Step.4: Give your virtualenvironment name.
 	eg:  virtualenv venv
 
 Step.5: Activate your virtualenv by using command
-	cmd: activate
+	cmd: venv\Scripts\activate
 
 Step.6: Now install the django for your project.
 	cmd: pip install django
 
 Step.7: After installing django use this command to open code editor
 	cmd: code.
+Step.8: Then run pip install -r requirements.txt
 
 Step.8: Now start creating your project.
 	cmd: django-admin startproject (project name)
